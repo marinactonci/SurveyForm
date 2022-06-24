@@ -1,0 +1,46 @@
+html {
+    height: 160%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(120deg, #8a2eff, #cce0ff);
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+    height: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.space-between {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.btn {
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+}
